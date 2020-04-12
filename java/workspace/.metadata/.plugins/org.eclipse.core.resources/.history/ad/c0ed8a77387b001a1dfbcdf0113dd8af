@@ -1,0 +1,11 @@
+package kr.ac.sejong.appprogramming.java1;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {//ctrl+shift+f
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,14 @@
+package kr.ac.sejong.appprogramming.java1;
+
+public class App {
+	public static void main(String[] args) {
+		// ctrl+shift+f : indent 정리
+		int x = 234234234;
+		long y = x;
+		System.out.println(y);
+		
+		long z = 23424323423423423l;
+		int k = (int) z;
+		System.out.println(k);		
+	}
+}
