@@ -3,42 +3,11 @@ package kr.ac.sejong.appprogramming.java1;
 public class Circle {
 	// data 추상화
 	// member
-	private int x;
-	private int y;
-	private int r;
+	int x;
+	int y;
+	int r;
 	
-	//getters
-	public int getX() {
-		return x;
-	}
 	
-	// setters
-	public void setX(int x) {
-		this.x = x;
-	}
-	
-	public int getY() {
-		return y;
-	}
-
-
-
-	public void setY(int y) {
-		this.y = y;
-	}
-
-
-
-	public int getR() {
-		return r;
-	}
-
-
-
-	public void setR(int r) {
-		this.r = r;
-	}
-
 
 	// Circle 이 new로 만들어 질때, 생성자 초기화
 	/**

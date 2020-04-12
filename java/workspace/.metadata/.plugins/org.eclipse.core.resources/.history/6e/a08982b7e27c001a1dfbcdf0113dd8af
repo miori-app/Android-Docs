@@ -1,0 +1,26 @@
+package kr.ac.sejong.appprogramming.java1;
+
+public class Circle {
+	// data 추상화
+	int x;
+	int y;
+	int r;
+	// Circle 이 new로 만들어 질때, 생성자 초기화
+	/**
+	 * Circle 이 new로 만들어 질떄, 초기화를 하고 싶다
+	 * @param x1
+	 * @param y1
+	 * @param r1
+	 */
+	public Circle(int x1,int y1,int r1) {
+		x=x1;
+		y=y1;
+		r=r1;
+		
+	}
+
+	// 원의 넓이 return (기능성) -> procedure추상화 (method)
+	public double getArea() {
+		return 3.14 * r * r;
+	}
+}

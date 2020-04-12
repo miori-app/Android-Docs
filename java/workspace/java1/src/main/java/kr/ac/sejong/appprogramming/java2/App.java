@@ -1,0 +1,11 @@
+package kr.ac.sejong.appprogramming.java2;
+
+import kr.ac.sejong.appprogramming.java1.Circle;
+
+public class App {
+	
+	public static void main(String[] args) {
+		Circle c3 = new Circle(5,4,3);
+	}
+
+}
