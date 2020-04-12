@@ -449,3 +449,35 @@
 2020-04-13 01:37:42,202 [Worker-644: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
 2020-04-13 01:37:42,204 [Worker-644: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-04-13 01:37:42,204 [Worker-644: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
+2020-04-13 01:49:58,300 [Worker-661: Launching Exceptionhandling] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:49:58,300 [Worker-661: Launching Exceptionhandling] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
+2020-04-13 01:49:58,303 [Worker-661: Launching Exceptionhandling] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:49:58,303 [Worker-661: Launching Exceptionhandling] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
+2020-04-13 01:50:34,478 [Worker-662: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:50:34,478 [Worker-662: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
+2020-04-13 01:50:34,478 [Worker-662: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:50:34,479 [Worker-662: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
+2020-04-13 01:50:50,929 [Worker-663: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:50:50,929 [Worker-663: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
+2020-04-13 01:50:50,930 [Worker-663: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:50:50,930 [Worker-663: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
+2020-04-13 01:57:55,862 [Worker-670: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:57:55,862 [Worker-670: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
+2020-04-13 01:57:55,864 [Worker-670: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:57:55,864 [Worker-670: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
+2020-04-13 01:59:02,849 [Worker-669: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:59:02,850 [Worker-669: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
+2020-04-13 01:59:02,851 [Worker-669: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 01:59:02,851 [Worker-669: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
+2020-04-13 02:01:46,631 [Worker-669: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 02:01:46,631 [Worker-669: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
+2020-04-13 02:01:46,632 [Worker-669: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 02:01:46,632 [Worker-669: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
+2020-04-13 02:04:14,978 [Worker-673: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 02:04:14,978 [Worker-673: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
+2020-04-13 02:04:14,979 [Worker-673: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 02:04:14,979 [Worker-673: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
+2020-04-13 02:04:58,833 [Worker-670: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 02:04:58,834 [Worker-670: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\main\resources
+2020-04-13 02:04:58,835 [Worker-670: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-13 02:04:58,835 [Worker-670: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sejong2\20_1\ap\workspace\java1\src\test\resources
