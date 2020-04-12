@@ -1,0 +1,20 @@
+package kr.ac.sejong.appprogramming.java1;
+
+import java.util.Scanner;
+
+public class Exceptionhandling {
+	public static void main(String[] args) {
+		// 10 나누기 x
+		Scanner s = new Scanner(System.in);
+		System.out.println("10 나누기 x 프로그램 : x를 입력하세요");
+		while(true) {
+			int x = s.nextInt();
+			try {
+			System.out.println(10/x); //0을 나누는 경우 exception handler 필요
+			}catch(ArithmeticException e) {
+				System.out.println("0은 불가");
+			}
+			s.close();
+		}
+	}
+}
