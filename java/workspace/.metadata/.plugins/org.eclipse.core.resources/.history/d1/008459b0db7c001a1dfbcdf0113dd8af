@@ -1,0 +1,16 @@
+package kr.ac.sejong.appprogramming.java1;
+
+import java.util.Scanner;
+
+public class App {
+	public static void main(String[] args) {
+		// ctrl+shift+f : indent 정리
+		// 10 나누기 x
+		Scanner s = new Scanner(System.in);
+		System.out.println("10 나누기 x 프로그램 : x를 입력하세요");
+		while(true) {
+			int x = s.nextInt();
+			System.out.println(10/x);
+		}
+	}
+}

@@ -1,0 +1,16 @@
+package kr.ac.sejong.appprogramming.java1;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		// ctrl+shift+f : indent 정리
+		for (int i =0; i < 10; i++) {
+			int v = i;
+			System.out.println(v);
+		}
+	}
+}
+ 

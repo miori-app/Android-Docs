@@ -1,0 +1,10 @@
+package kr.ac.sejong.appprogramming.java1;
+
+public class App {
+	public static void main(String[] args) {
+		// ctrl+shift+f : indent 정리
+		String bloodType = "O";
+		System.out.println(bloodType);
+
+	}
+}

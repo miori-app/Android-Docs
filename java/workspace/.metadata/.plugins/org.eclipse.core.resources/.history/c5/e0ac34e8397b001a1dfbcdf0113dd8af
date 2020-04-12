@@ -1,0 +1,18 @@
+package kr.ac.sejong.appprogramming.java1;
+
+import org.json.JSONObject;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		//ctrl+shift+f : indent 정리
+		System.out.println("Hello World!");
+		JSONObject obj = new JSONObject();
+		obj.put("msg", "Hello world");
+		System.out.println(obj.toString());
+		
+	}
+}

@@ -1,0 +1,13 @@
+package kr.ac.sejong.appprogramming.java1;
+
+import java.util.Scanner;
+
+public class App {
+	public static void main(String[] args) {
+		// ctrl+shift+f : indent 정리
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("What is yout name?");
+		String name = scanner.next();
+		System.out.println(name);
+	}
+}
