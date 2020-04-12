@@ -39,7 +39,9 @@ public class Circle {
 		this.r = r;
 	}
 
-
+	public Circle() {
+		
+	}
 	// Circle 이 new로 만들어 질때, 생성자 초기화
 	/**
 	 * x,y,r을 받아 원을 생성하는 생성자
