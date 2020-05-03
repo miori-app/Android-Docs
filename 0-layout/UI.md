@@ -10,3 +10,6 @@
   - Relative layout
   - Grid layout
   - Tab layout
+
+## Text View
+
