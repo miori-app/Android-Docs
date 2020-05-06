@@ -1,0 +1,1 @@
+# Barcode/QR scan Concept
