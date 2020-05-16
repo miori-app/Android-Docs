@@ -30,6 +30,7 @@
         android:id="@+id/rating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:stepSize="1.0">
     </androidx.appcompat.widget.AppCompatRatingBar>
 
@@ -58,4 +59,9 @@
         android:textOn="This is On"
         android:textOff="This is Off " />
 
+=======
+        android:stepSize="1">
+    </androidx.appcompat.widget.AppCompatRatingBar>
+
+>>>>>>> 1e25c7cd36f9baa2fcb750644aa2c0db5bbf8785
 </LinearLayout>
