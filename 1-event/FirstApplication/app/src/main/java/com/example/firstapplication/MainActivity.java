@@ -10,12 +10,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button b1,b2,b3;
+    Button b1,b2,b3,b4,b5;
 
     private Button catButton;
     private Button dogButton;
     private Button humanButton;
     private TextView textView;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         b1 = (Button)findViewById(R.id.button1);
         b2 = (Button)findViewById(R.id.button_cal);
         b3 = (Button)findViewById(R.id.button_ass);
+        b4 = (Button)findViewById(R.id.button_indent);
+        b5 = findViewById(R.id.button_gorating);
 
         catButton = findViewById(R.id.btn_cat);
         dogButton = findViewById(R.id.btn_dog);
@@ -49,6 +53,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,UiAss.class);
+                startActivity(intent);
+            }
+        });
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 명시적인 intent를 사용해서 Main2Activity 호출 (현재 인자, 호출할 인자)
+                Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+                //intent.putExtra("id",17011879);
+                //intent.putExtra("name","miyeon");
+                startActivity(intent);
+            }
+        });
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Rating.class);
                 startActivity(intent);
             }
         });

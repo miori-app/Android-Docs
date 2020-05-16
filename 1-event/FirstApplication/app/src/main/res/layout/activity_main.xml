@@ -26,11 +26,11 @@
         android:text="Table layout"/>
 
     <Button
-        android:id="@+id/button_gojava"
+        android:id="@+id/button_gorating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="UI JAVA"/>
+        android:text="Rating"/>
 </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,10 +51,11 @@
             android:text="UI assignmnet"/>
 
         <Button
+            android:id="@+id/button_indent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button6"/>
+            android:text="Indent"/>
     </LinearLayout>
 
     <LinearLayout
