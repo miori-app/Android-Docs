@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button1c"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dip"
+            android:text="click"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="world"
+            android:textSize="15sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textview1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textSize="15sp"
+            android:gravity="center_horizontal" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="211dp"
+            android:layout_height="172dp"
+            android:layout_margin="10dip"
+            android:layout_span="3"
+            android:adjustViewBounds="true"
+            android:src="@drawable/my_logo" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/Edit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:gravity="left"
+            android:hint="Hello"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        <EditText
+            android:id="@+id/Edit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="Hello2"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_span="3"/>
+    </TableRow>
+
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+<RadioGroup
+    android:id="@+id/rg_1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_span="3">
+      <RadioButton
+          android:id="@+id/rg_1btn"
+          android:layout_weight="1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="RadioButton"/>
+    <RadioButton
+        android:id="@+id/rg_2btn"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton2"/>
+    <RadioButton
+        android:id="@+id/rg_3btn"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton2"/>
+</RadioGroup>
+</TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:text="Check Btn1"/>
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:text="Check Btn2"/>
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:text="Check Btn3"/>
+    </TableRow>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="255"
+        android:progress="80"/>
+
+</TableLayout>
