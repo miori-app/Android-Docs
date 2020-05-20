@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button b1,b2,b3,b4,b5,b6;
+    Button b1,b2,b3,b4,b5,b6,b7,b8,b9;
 
     private Button catButton;
     private Button dogButton;
@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
         b4 = (Button)findViewById(R.id.button_indent);
         b5 = findViewById(R.id.button_gorating);
         b6 = findViewById(R.id.adv);
+        b7 = findViewById(R.id.button_adapter);
+        b8 = findViewById(R.id.button_adapter2);
+        b9 = findViewById(R.id.custom_listview);
 
         catButton = findViewById(R.id.btn_cat);
         dogButton = findViewById(R.id.btn_dog);
@@ -78,6 +81,30 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,AdvancedView.class);
+                startActivity(intent);
+            }
+        });
+
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Main4Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        b8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Main5Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        b9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Main6Activity.class);
                 startActivity(intent);
             }
         });
