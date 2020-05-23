@@ -2,6 +2,7 @@
 - 안드로이드 관련 DOCS
   - layout
     - linear(vertical, horizontal), table
+    - list, adapter
   - event
     - setOnClickListener
     - setOnLongClickLIntener
