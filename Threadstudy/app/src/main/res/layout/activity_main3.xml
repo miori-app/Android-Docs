@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="service music player"
+        android:layout_gravity="center"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/son"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service on"/>
+
+    <Button
+        android:id="@+id/soff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service off"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1분마다 날짜표시"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>
