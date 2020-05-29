@@ -14,8 +14,8 @@
     - 범용 빌드 툴
     - beanshell
   - ThirdParty Library
-  - Indent
-  - thread
+  - Indent 
+  - thread (runnable)
 - java 중요 개념과 thread 중점적으로 정리 & 구현
   - thread
     - 상속
