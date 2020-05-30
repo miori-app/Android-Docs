@@ -15,7 +15,7 @@
     - beanshell
   - ThirdParty Library
   - Indent 
-  - thread (runnable)
+  - thread (runnable) (timer)
 - java 중요 개념과 thread 중점적으로 정리 & 구현
   - thread
     - 상속
