@@ -2,6 +2,7 @@ package com.alomteama.mysensor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -10,6 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView listView;
     private SensorManager sm;
+    private Button go_tts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +72,21 @@ public class MainActivity extends AppCompatActivity {
                 },clickedSensor,3000);
 
 
+            }
+        });
+
+        start_tts();
+
+
+    }
+
+    public void start_tts(){
+        go_tts = (Button)findViewById(R.id.go_tts);
+        go_tts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MyTextToSpeech.class);
+                startActivity(intent);
             }
         });
     }
