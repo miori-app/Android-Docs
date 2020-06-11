@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Original Image"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="15dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:id="@+id/imageViewInput"
+        app:srcCompat="@drawable/ic_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:text="Edge Image"
+        android:textSize="15dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:id="@+id/imageViewOutput"/>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="0.06"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <SeekBar
+            android:id="@+id/seekBar_threshold1"
+            android:layout_width="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/textView_threshold1"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="0.06"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <SeekBar
+            android:id="@+id/seekBar_threshold2"
+            android:layout_width="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/textView_threshold2"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Detect edge" />
+
+
+</LinearLayout>
