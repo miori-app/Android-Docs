@@ -1,4 +1,11 @@
 # How To Run
+## Dev Environment
+- window 10
+- android studio 3.6.1
+- minSDKVersion 26
+- openCV 4.1.0
+
+## Setting to use openCV
 
 1. Install openCV (ver 4.1.0)
 2. Unzip openCV on your C:/ drive
