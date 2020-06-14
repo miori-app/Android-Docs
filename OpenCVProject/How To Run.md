@@ -20,4 +20,6 @@
 
 ![image](https://user-images.githubusercontent.com/46439995/84439519-570e6880-ac73-11ea-9f01-59ea27a53de0.png)
 
+6. CMakeLists.txt 에서 8번 line의 ```set(pathPROJECT D:/AndridStudioProject/OpenCVProject)``` 의 부분을 본인의 경로로 대체하면 됩니다.
+
 <b>The Setting to use openCV is completed</b>
