@@ -20,6 +20,7 @@
   - sensor (sensor 값 toast로 띄우기)
   - TTS (Text To Speech)
   - opencv (edge detection)
+  - draw
 - java 중요 개념과 thread 중점적으로 정리 & 구현
   - thread
     - 상속
