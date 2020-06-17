@@ -27,3 +27,4 @@
     - interface
   - 철학자의 식탁 
     - deadlock 문제 해결
+  - runnable
