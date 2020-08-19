@@ -14,7 +14,7 @@
     - 범용 빌드 툴
     - beanshell
   - ThirdParty Library
-  - Indent 
+  - Intent
   - thread (runnable) (timer)
   - game (도끼 게임, timer 사용)
   - sensor (sensor 값 toast로 띄우기)
